@@ -1,0 +1,16 @@
+ .wave-bg {
+     background: linear-gradient(135deg, #fff 0%, #fff 50%, #fef3e2 50%, #fef3e2 100%);
+}
+.logo-oo {
+    position: relative;
+ }
+.logo-oo::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #f97316;
+    border-radius: 50%;
+    top: -2px;
+    right: -2px;
+}
